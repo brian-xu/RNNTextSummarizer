@@ -1,4 +1,5 @@
 /.ipynb_checkpoints/
 /input/Reviews.csv
 /__pycache__/
-/model/
+/encoder_model/
+/decoder_model/
