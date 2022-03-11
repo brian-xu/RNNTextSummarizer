@@ -2,4 +2,6 @@
 /input/Reviews.csv
 /input/
 /__pycache__/
-/model/
+/model/cnn/
+/model/assets/
+/model/variables/
