@@ -1,7 +1,0 @@
-numpy==1.19.5
-pandas
-nltk
-beautifulsoup4
-matplotlib
-keras
-tensorflow==2.5.0

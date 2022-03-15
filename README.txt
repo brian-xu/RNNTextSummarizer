@@ -6,11 +6,14 @@ Libraries used:
 -numpy               1.19.5 (https://pypi.org/project/numpy/1.19.5/)
 -pandas              1.4.1 (https://pandas.pydata.org/docs/getting_started/install.html)
 -tensorflow          2.5.0 (https://www.tensorflow.org/install)
+Python version:
+-Python 3.8.12
 Publicly available code:
 -Text Summarizer RNN (https://iq.opengenus.org/text-summarization-using-rnn/). Modified/added over 100 lines of code
 Scripts/Functions written by our team:
--summarize function. Takes in text and uses the inference model to predict summaries. (4 lines)
+-summarize function. Takes in text and uses the inference model to predict summaries. Can be used with any of the encoder decoder models(4 lines)
 -softmax function. Takes the softmax of x. (3 lines)
 -top_k_sampling function. Samples a token based on the top-k tokens. (7 lines)
--top_words function. Takes in text and returns the top words in that text. Used in Luhn's summarizer.
--calculate_scores function. Takes in words and significance and returns the score. Used in Luhn's summarizer.
+-top_words function. Takes in text and returns the top words in that text. Used in Luhn's summarizer. (24 lines)
+-calculate_scores function. Takes in words and significance and returns the score. Used in Luhn's summarizer. (25 lines)
+-summarize_text function. Takes in unprocessed text and generates a summary from it using Luhn's summarizer. (16 lines)
