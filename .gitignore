@@ -1,5 +1,6 @@
 /.ipynb_checkpoints/
-/input/Reviews.csv
+/src/input/Reviews.csv
+/src/input/cnn_dailymail
 /input/
 /__pycache__/
 /model/cnn/
